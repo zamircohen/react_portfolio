@@ -1,14 +1,29 @@
 import styled from 'styled-components';
 
+export const Wrapper = styled.div`
+    display: grid;
+    grid-template-columns: repeat(2, 100%);
+    grid-template-rows: 1fr;
+    grip-column-gap: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    width: 45%;
+    float: ${(props) => props.right ? "right" : "left" };
+    // background-color: pink;
+
+    
+`;
+
 export const Section = styled.section`
     margin: 0 auto;
     max-width: 1040px;
+    width: 100%;
     box-sizing: content-box;
-    position: relative;
     overflow: hidden;
     grid-template-columns: 1fr 1fr;
     color: white;
     background-color: #1a1a1a;
+    padding: 1rem;
 `;
 
 export const SectionTitle = styled.h2`
@@ -22,18 +37,6 @@ export const SectionTitle = styled.h2`
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
 `
-
-// export const SectionTitleColor = styled.h2`
-//   font-weight: 800;
-//   font-size: 65px;
-//   line-height: 72px;
-//   width: max-content;
-//   max-width: 100%;
-//   background: linear-gradient(121.57deg, #F46737 18.77%, #945DD6 60.15%);
-//   -webkit-background-clip: text;
-//   -webkit-text-fill-color: transparent;
-//   margin-bottom: 16px;
-// `
 
 export const SectionText = styled.p`
   max-width: 800px;
