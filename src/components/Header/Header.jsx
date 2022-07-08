@@ -1,15 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Container, NavLink, Div1, Div2, Div3  } from './HeaderStyles';
+import { Wrapper, NavLink, Div1, Div2, Div3, Span  } from './HeaderStyles';
 
 const Header = () => (
-    <Container>
+    <Wrapper>
         <Div1>
-            {/* <Link href="/"> */}
-                {/* <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: "20px"}}>
-                    <img src="/static/logo.png" alt="logo" style={{ width: "100px", height: "100px"}} /> */}
+            <Link href="/">
                     <Span> Portfolio </Span>
-                {/* </a> */}
+            </Link>
         </Div1>
 
         <Div2>
@@ -48,7 +46,7 @@ const Header = () => (
             </li>
         </Div3>
 
-    </Container>
+    </Wrapper>
 );
 
 export default Header;
