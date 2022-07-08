@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './components/Header/Header';
-// import { Container } from './layout/Layout';
-
+import { Routes, Route } from 'react-router-dom';
+import StartPage from './pages/StartPage';
 
 function App() {
   return (
     <div>
-      {/* <Container> */}
-        <Header />    
-        <h1> Hello world! </h1>  
-      {/* </Container>     */}
+      <Routes>
+        <Route path="/" element={<StartPage/>} />
+      </Routes>
+        {/* <h1> Hello world! </h1>   */}
+
     </div>
   );
 }
