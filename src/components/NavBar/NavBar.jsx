@@ -4,6 +4,7 @@ import { Wrapper, NavLink, Div1, Div2, Div3, Span, SocialIcons  } from './NavBar
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import ToggleSwitch from '../../styles/GlobalComponents/ToggleSwitch';
+import { SectionDivider } from '../../components/Header/HeaderStyles';
 
 
 
@@ -55,8 +56,6 @@ export default function Header() {
                 <AiFillFacebook size="3rem"/>
             </SocialIcons>
         </Div3>
-
     </Wrapper>
-
     )
 }

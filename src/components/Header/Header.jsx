@@ -2,8 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import TypeWriter from '../Typewriter';
-import { SectionTitle, Section, SectionText, Wrapper} from './HeaderStyles';
-
+import { SectionTitle, Section, SectionText, Wrapper, SectionDivider} from './HeaderStyles';
 import { Fade } from "react-awesome-reveal";
 
 // const loopArr = [
@@ -15,9 +14,9 @@ import { Fade } from "react-awesome-reveal";
 // ];
 
 const typeWriter = [
-  "Full Stack Web Developer",
+  "Full Stack Developer",
   "Traveller",
-  "Climber",
+  "Climbe",
   "Husband",
   "Junior Web Developer",
   "Friend",
@@ -46,6 +45,7 @@ export default function Header() {
 
   return (
     <div>
+        <SectionDivider />
         <Wrapper>
         <Fade delay={500} direction="left">
         <Section left>
@@ -57,7 +57,7 @@ export default function Header() {
         </Fade>
 
         <Fade delay={500} direction="right">
-        <Section>
+        <Section right>
           <img src={process.env.PUBLIC_URL + "/images/zamir1_crop.png"} alt="zamir cohen portrait" height="700px"></img>
         </Section>
         </Fade>

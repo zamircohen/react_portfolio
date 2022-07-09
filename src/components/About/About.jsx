@@ -1,11 +1,14 @@
 import React from 'react'
-import { Wrapper } from './AboutStyles'
+import { SectionTitle, Section, SectionText, Wrapper} from '../Header/HeaderStyles';
+
 
 
 export default function About() {
   return (
-    <Wrapper id="about">
-        <h1>HELLO...THIS IS ME</h1>
+    <Wrapper>
+        <Section>    
+            <SectionTitle>About</SectionTitle>     
+        </Section>
     </Wrapper>
   )
 }

@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 4fr 2fr;
     gap: 2rem;
-    padding: 1rem;
+    padding: 1rem 0rem 5rem 0rem;
     max-width: 100%;
 `;
 
@@ -43,7 +43,7 @@ export const NavLink = styled.a`
     font-size: 2rem;
     display: inline-block;
     line-height: 32px;
-    padding: 100px;
+    padding: 0 100px 0 100px;
     padding-top: 3rem;
     color: rgba(255, 255, 255, 0.75);
     transition: 0.4s ease;

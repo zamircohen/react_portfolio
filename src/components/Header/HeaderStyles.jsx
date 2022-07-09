@@ -1,24 +1,25 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    display: grid;
-    grid-template-columns: repeat(2, 100%);
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column: 1 / span 2;
     grid-template-rows: 1fr;
     grip-column-gap: 1rem;
     padding: 1rem;
     padding-top: 2rem;
-    width: 45%;
     float: ${(props) => props.right ? "right" : "left" };
-    height: 70vh;
-}
+    height: 80vh;
 `;
 
-export const Section = styled.section`
-    margin: 0 auto;
+export const Section = styled.div`
+    margin: 0 10rem 0 10rem;
     max-width: 1040px;
     width: 100%;
     color: white;
-    padding-left: 5rem;
+    text-align: ${(props) => props.left ? "left" : "right" };
+    vertical-align: middle;
+    padding-${(props) => props.right ? "right" : "left" }: 7rem;
     float: ${(props) => props.right ? "right" : "left" };
     img {
         object-fit: cover;
@@ -50,11 +51,5 @@ export const SectionText = styled.p`
 export const SectionDivider = styled.div`
   width: 100%;
   height: 6px;
-  margin-bottom: 25px;
-  border-radius: 10px;
-  background-color: #fff;
   background: linear-gradient(270deg, #61B9E9 0%, #CD7DFF 100%);
-  margin: 4rem;
 `
-
-
