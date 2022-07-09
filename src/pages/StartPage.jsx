@@ -12,8 +12,8 @@ export default function StartPage() {
         <PageWrapper>
         <NavBar />
         <SectionDivider />
-        <Header />
-        <About />
+        <Header id="home"/>
+        <About id="about"/>
         </PageWrapper>
     </div>
 

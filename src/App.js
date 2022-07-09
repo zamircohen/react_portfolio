@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Switch } from 'react-router-dom';
 import About from './components/About/About';
 import StartPage from './pages/StartPage';
 
@@ -8,8 +8,8 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<StartPage/>} />
-        <Route exact path="/about" element={<About/>} />
-        {/* <Route path="*" element={<NoPage />} /> */}
+        <Route path="/about" component={<About/>} />
+        {/* <Route path="*" componen={<NoPage />} /> */}
       </Routes>
     </div>
   );

@@ -4,8 +4,6 @@ import { Wrapper, NavLink, Div1, Div2, Div3, Span, SocialIcons  } from './NavBar
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import ToggleSwitch from '../../styles/GlobalComponents/ToggleSwitch';
-import { SectionDivider } from '../../components/Header/HeaderStyles';
-
 
 
 export default function Header() {
@@ -17,12 +15,12 @@ export default function Header() {
 
         <Div2>
             <li>
-                <Link style={{textDecoration: 'none'}} to="#home">
+                <Link style={{textDecoration: 'none'}} to="/home">
                     <NavLink> Home </NavLink>
                 </Link>
             </li>
             <li>
-                <Link smooth to={{pathname: "/", hash:"about"}} style={{textDecoration: 'none'}}>
+                <Link smooth to="/about" style={{textDecoration: 'none'}}>
                     <NavLink> About </NavLink>
                 </Link>
             </li>
