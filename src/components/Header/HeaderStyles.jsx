@@ -9,6 +9,8 @@ export const Wrapper = styled.div`
     padding-top: 2rem;
     width: 45%;
     float: ${(props) => props.right ? "right" : "left" };
+    height: 70vh;
+}
 `;
 
 export const Section = styled.section`
@@ -17,6 +19,7 @@ export const Section = styled.section`
     width: 100%;
     color: white;
     padding-left: 5rem;
+    float: ${(props) => props.right ? "right" : "left" };
     img {
         object-fit: cover;
         object-position: auto;
@@ -37,7 +40,7 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
+  font-size: 36px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;

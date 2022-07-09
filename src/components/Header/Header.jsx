@@ -46,22 +46,22 @@ export default function Header() {
 
   return (
     <div>
-        <Fade delay={500} direction="left">
         <Wrapper>
-        <Section>
+        <Fade delay={500} direction="left">
+        <Section left>
             <SectionTitle main>Welcome to <br /> Zamir Cohen´s <br /> React portfolio</SectionTitle>
             <SectionTitle color>I am a <span>&lt;<TypeWriter data={typeWriter} /></span>&gt;</SectionTitle>
+            <br />
+            <SectionText>A Junior Full Stack Web Developer open for work</SectionText>
         </Section>
-        </Wrapper>
         </Fade>
 
         <Fade delay={500} direction="right">
-        <Wrapper right>
         <Section>
           <img src={process.env.PUBLIC_URL + "/images/zamir1_crop.png"} alt="zamir cohen portrait" height="700px"></img>
         </Section>
-        </Wrapper>
         </Fade>
+        </Wrapper>
     </div>
   )
 }
