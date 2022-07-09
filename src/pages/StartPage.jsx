@@ -7,15 +7,12 @@ import About from '../components/About/About'
 export default function StartPage() {
   return (
     <div>
+      
         <NavBar />
-        
         <Header />
-
-        <Header />
-
         <About />
 
-
     </div>
+
   )
 }

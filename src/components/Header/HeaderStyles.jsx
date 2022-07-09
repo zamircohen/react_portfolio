@@ -9,10 +9,10 @@ export const Wrapper = styled.div`
     padding-top: 2rem;
     width: 45%;
     float: ${(props) => props.right ? "right" : "left" };
-    // background-color: pink;
     overflow: hidden;
     animation: slide 0.5s forwards;
     animation-delay: 2s;
+    background-color: yellow;
 `;
 
 export const Section = styled.section`
@@ -20,17 +20,23 @@ export const Section = styled.section`
     max-width: 1040px;
     width: 100%;
     box-sizing: content-box;
-    overflow: hidden;
-    grid-template-columns: 1fr 1fr;
     color: white;
-    background-color: #1a1a1a;
     padding: 1rem;
+    background-color: red;  
+    img {
+        object-fit: cover;
+        object-position: auto;
+        animation: slide 3s forwards;
+    &:hover {
+        background: linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%);
+      }
+    }
 `;
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '72px' : '48px'};
-  line-height: 72px;
+  font-size: ${(props) => props.main ? '102px' : '48px'};
+  line-height: ${(props) => props.main ? '102px' : '48px'};
   width: max-content;
   max-width: 100%;
   background: ${(props) => props.color ? 'linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%)' : 'white'};
