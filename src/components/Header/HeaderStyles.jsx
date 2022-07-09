@@ -9,20 +9,14 @@ export const Wrapper = styled.div`
     padding-top: 2rem;
     width: 45%;
     float: ${(props) => props.right ? "right" : "left" };
-    overflow: hidden;
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
-    background-color: yellow;
 `;
 
 export const Section = styled.section`
     margin: 0 auto;
     max-width: 1040px;
     width: 100%;
-    box-sizing: content-box;
     color: white;
-    padding: 1rem;
-    background-color: red;  
+    padding-left: 5rem;
     img {
         object-fit: cover;
         object-position: auto;
