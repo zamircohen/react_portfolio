@@ -10,8 +10,9 @@ export const Wrapper = styled.div`
     width: 45%;
     float: ${(props) => props.right ? "right" : "left" };
     // background-color: pink;
-
-    
+    overflow: hidden;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
 `;
 
 export const Section = styled.section`
@@ -53,6 +54,6 @@ export const SectionDivider = styled.div`
   margin-bottom: 25px;
   border-radius: 10px;
   background-color: #fff;
-  background: linear-gradient(270deg, #F46737 0%, #945DD6 100%);
+  background: linear-gradient(270deg, #61B9E9 0%, #CD7DFF 100%);
   margin: 4rem;
 `

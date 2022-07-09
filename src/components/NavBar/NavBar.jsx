@@ -23,13 +23,18 @@ export default function Header() {
                 </Link>
             </li>
             <li>
-                <Link style={{textDecoration: 'none'}} to="#about">
+                <Link smooth to={{pathname: "/", hash:"about"}} style={{textDecoration: 'none'}}>
                     <NavLink> About </NavLink>
                 </Link>
             </li>
             <li>
                 <Link style={{textDecoration: 'none'}} to="#projects">
                     <NavLink> Projects </NavLink>
+                </Link>
+            </li>
+            <li>
+                <Link style={{textDecoration: 'none'}} to="#tech">
+                    <NavLink> Tech </NavLink>
                 </Link>
             </li>
             <li>
