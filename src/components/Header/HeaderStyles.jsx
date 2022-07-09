@@ -20,17 +20,13 @@ export const Section = styled.section`
     img {
         object-fit: cover;
         object-position: auto;
-        animation: slide 3s forwards;
-    &:hover {
-        background: linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%);
-      }
     }
 `;
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '102px' : '48px'};
-  line-height: ${(props) => props.main ? '102px' : '48px'};
+  line-height: ${(props) => props.main ? '108px' : '60px'};
   width: max-content;
   max-width: 100%;
   background: ${(props) => props.color ? 'linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%)' : 'white'};
@@ -57,3 +53,5 @@ export const SectionDivider = styled.div`
   background: linear-gradient(270deg, #61B9E9 0%, #CD7DFF 100%);
   margin: 4rem;
 `
+
+

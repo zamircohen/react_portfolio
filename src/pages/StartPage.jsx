@@ -10,7 +10,6 @@ export default function StartPage() {
       
         <NavBar />
         <Header />
-        <About />
 
     </div>
 
