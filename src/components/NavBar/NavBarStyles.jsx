@@ -19,6 +19,7 @@ export const Div1 = styled.div`
     align-content: center;
     justify-content: center;
     list-style: none;
+    padding-top: 3rem;
 `;
 
 export const Div2 = styled.div`

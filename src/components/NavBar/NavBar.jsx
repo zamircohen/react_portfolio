@@ -2,18 +2,16 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { Wrapper, NavLink, Div1, Div2, Div3, Span, SocialIcons  } from './NavBarStyles';
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { BsMoonFill, BsSunFill } from 'react-icons/bs';
+import ToggleSwitch from '../../styles/GlobalComponents/ToggleSwitch';
+
 
 
 export default function Header() {
     return (
-
     <Wrapper>
         <Div1>
-            {/* <Link to="/">
-                <a style={{ textDecoration: "none", display: "flex", alignItems: "center", color: "white", marginBottom: "20px" }}>
-                    <Span> Portfolio </Span>
-                </a>
-            </Link> */}
+        <span> <BsMoonFill color="white" size="1.5rem"/> <ToggleSwitch /> <BsSunFill color="white" size="1.5rem"/> </span>
         </Div1>
 
         <Div2>
