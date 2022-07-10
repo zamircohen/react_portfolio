@@ -6,9 +6,8 @@ export const Form = styled.form`
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
     padding: 1rem;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    background: transparent;
 
     input {
         border: 1px solid #grey;
@@ -37,7 +36,7 @@ export const Form = styled.form`
         background: transparent;
         border-radius: 5px;
         padding: .5rem;
-        font-size: 1rem;
+        font-size: 2rem;
         color: white;
         font-weight: bold;
         background: linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%);

@@ -27,6 +27,25 @@ export const Section = styled.div`
     }
 `;
 
+export const Block = styled.div`
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+`;
+
+export const BlockTitle = styled.h2`
+  font-weight: 800;
+  font-size: ${(props) => props.main ? '102px' : '48px'};
+  line-height: ${(props) => props.main ? '108px' : '60px'};
+  width: max-content;
+  margin: 0 auto;
+  padding: 1rem;
+  background: ${(props) => props.color ? 'linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%)' : 'white'};
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 16px;
+`
+
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '102px' : '48px'};

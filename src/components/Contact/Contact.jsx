@@ -1,13 +1,13 @@
 import React from 'react'
-import { SectionTitle, Section, SectionText, Wrapper} from '../Header/HeaderStyles';
+import { SectionTitle, Block, Section, SectionText, Wrapper, BlockTitle} from '../Header/HeaderStyles';
 import { Form } from './ContactStyles';
 
 
 export default function Contact() {
   return (
     <Wrapper id="contact">
-        <Section>    
-            <SectionTitle main>Contact me.</SectionTitle>     
+        <Block>    
+            <BlockTitle main>Contact me.</BlockTitle>     
             <Form>
                 
                 <input type="text" placeholder='Your name*' required="true"/>
@@ -22,7 +22,7 @@ export default function Contact() {
                 <br />
                 <button> SUBMIT </button>
             </Form>
-        </Section>
+        </Block>
     </Wrapper>
   )
 }
