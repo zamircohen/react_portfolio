@@ -61,6 +61,7 @@ export const SocialIcons = styled.a`
     border-radius: 50px;
     padding: 2rem;
     padding-top: 2rem;
+    text-decoration: none;
     
     &:hover {
         transform: scale(1.2);

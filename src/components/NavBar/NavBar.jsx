@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import { Wrapper, NavLink, Div1, Div2, Div3, Span, SocialIcons  } from './NavBarStyles';
+import { Wrapper, Div1, Div2, Div3, NavLink, SocialIcons  } from './NavBarStyles';
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import ToggleSwitch from '../../styles/GlobalComponents/ToggleSwitch';
+import { HashLink } from 'react-router-hash-link';
 
 
-export default function Header() {
+export default function NavBar() {
     return (
     <Wrapper>
         <Div1>
@@ -15,42 +15,42 @@ export default function Header() {
 
         <Div2>
             <li>
-                <Link style={{textDecoration: 'none'}} to="/home">
+                <a href="/#home">
                     <NavLink> Home </NavLink>
-                </Link>
+                </a>
             </li>
             <li>
-                <Link smooth to="/about" style={{textDecoration: 'none'}}>
+                <HashLink smooth to="/#about">
                     <NavLink> About </NavLink>
-                </Link>
+                </HashLink>
             </li>
             <li>
-                <Link style={{textDecoration: 'none'}} to="#projects">
+                <HashLink smooth to="/#projects">
                     <NavLink> Projects </NavLink>
-                </Link>
+                </HashLink>
             </li>
             <li>
-                <Link style={{textDecoration: 'none'}} to="#tech">
+                <HashLink smooth to="/#tech">
                     <NavLink> Tech </NavLink>
-                </Link>
+                </HashLink>
             </li>
             <li>
-                <Link style={{textDecoration: 'none'}} to="#contact">
+                <HashLink smooth to="/#contact">
                     <NavLink> Contact </NavLink>
-                </Link>
+                </HashLink>
             </li>
         </Div2>
 
         <Div3>
-            <SocialIcons style={{textDecoration: 'none'}} to="https://github.com/zamircohen" target="_blank">
+            <SocialIcons href="https://github.com/zamircohen" target="_blank">
                 <AiFillGithub size="3rem"/>
             </SocialIcons>
             
-            <SocialIcons style={{textDecoration: 'none'}} to="https://www.linkedin.com/in/zamircohen/" target="_blank">
+            <SocialIcons href="https://www.linkedin.com/in/zamircohen/" target="_blank">
                 <AiFillLinkedin size="3rem"/>
             </SocialIcons>
             
-            <SocialIcons style={{textDecoration: 'none'}} to="https://www.linkedin.com/in/zamircohen/" target="_blank">
+            <SocialIcons href="https://www.linkedin.com/in/zamircohen/" target="_blank">
                 <AiFillFacebook size="3rem"/>
             </SocialIcons>
         </Div3>

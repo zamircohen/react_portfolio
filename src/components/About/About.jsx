@@ -5,7 +5,7 @@ import { SectionTitle, Section, SectionText, Wrapper} from '../Header/HeaderStyl
 
 export default function About() {
   return (
-    <Wrapper>
+    <Wrapper id="about">
         <Section>    
             <SectionTitle>About</SectionTitle>     
         </Section>

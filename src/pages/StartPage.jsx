@@ -2,9 +2,12 @@ import React from 'react'
 import NavBar from '../components/NavBar/NavBar'
 import Header from '../components/Header/Header'
 import About from '../components/About/About'
+import Projects from '../components/Projects/Projects'
 import { SectionDivider } from '../components/Header/HeaderStyles'
 import { PageWrapper } from './PageWrapper'
-
+import Tech from '../components/Tech/Tech'
+import Contact from '../components/Contact/Contact'
+// import { HashLink } from 'react-router-hash-link';
 
 export default function StartPage() {
   return (
@@ -12,8 +15,12 @@ export default function StartPage() {
         <PageWrapper>
         <NavBar />
         <SectionDivider />
-        <Header id="home"/>
-        <About id="about"/>
+        <Header />
+        <About />
+        <Projects />
+        <Tech />
+        <Contact />
+        {/* <HashLink smooth to="/#top">Link to Top of Page</HashLink> */}
         </PageWrapper>
     </div>
 
