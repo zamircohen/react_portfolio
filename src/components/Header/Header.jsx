@@ -45,8 +45,8 @@ export default function Header() {
 
   return (
     <div>
-        <SectionDivider />
-        <Wrapper>
+        {/* <SectionDivider id="home"/> */}
+        <Wrapper id="home">
         <Fade delay={500} direction="left">
         <Section left>
             <SectionTitle main>Welcome to <br /> Zamir Cohen´s <br /> React portfolio</SectionTitle>

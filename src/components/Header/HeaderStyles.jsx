@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
     grid-template-rows: 1fr;
     grip-column-gap: 1rem;
     padding: 1rem;
-    padding-top: 2rem;
+    padding-top: 15rem;
     float: ${(props) => props.right ? "right" : "left" };
     height: 80vh;
 `;

@@ -4,6 +4,8 @@ import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { BsMoonFill, BsSunFill } from 'react-icons/bs';
 import ToggleSwitch from '../../styles/GlobalComponents/ToggleSwitch';
 import { HashLink } from 'react-router-hash-link';
+import {SectionDivider} from '../Header/HeaderStyles';
+
 
 
 export default function NavBar() {
@@ -15,9 +17,9 @@ export default function NavBar() {
 
         <Div2>
             <li>
-                <a href="/#home">
+                <HashLink smooth to="/#home">
                     <NavLink> Home </NavLink>
-                </a>
+                </HashLink>
             </li>
             <li>
                 <HashLink smooth to="/#about">

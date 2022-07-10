@@ -1,12 +1,16 @@
 import styled from "styled-components"
 
-
 export const Wrapper = styled.div`
     display: grid;
+    position: fixed; 
+    top: 0; 
+    background-color: black;
+    z-index: 1000;
+    scroll-padding-top: 5rem;
     grid-template-columns: 1fr 4fr 2fr;
     gap: 2rem;
-    padding: 1rem 0rem 5rem 0rem;
-    max-width: 100%;
+    padding: 1rem 0rem 1rem 0rem;
+    width: 100%;
 `;
 
 export const Span = styled.span`
