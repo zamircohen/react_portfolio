@@ -8,6 +8,7 @@ import { PageWrapper } from './PageWrapper'
 import Tech from '../components/Tech/Tech'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
+import ScrollButton from '../styles/GlobalComponents/ScrollButton'
 // import { HashLink } from 'react-router-hash-link';
 
 export default function StartPage() {
@@ -23,6 +24,7 @@ export default function StartPage() {
         <Contact />
         <Footer />
         {/* <HashLink smooth to="/#top">Link to Top of Page</HashLink> */}
+        <ScrollButton />
         </PageWrapper>
     </div>
 
