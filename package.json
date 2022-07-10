@@ -10,6 +10,7 @@
     "react": "^18.2.0",
     "react-animated-css": "^1.2.1",
     "react-awesome-reveal": "^3.8.1",
+    "react-chrono": "^1.17.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",

@@ -39,11 +39,21 @@ export const BlockTitle = styled.h2`
   line-height: ${(props) => props.main ? '108px' : '60px'};
   width: max-content;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 10rem 0 2rem 0;
   background: ${(props) => props.color ? 'linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%)' : 'white'};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
+`
+export const BlockText = styled.p`
+  max-width: 800px;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 3.6rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 auto;
+  text-align: center;
 `
 
 export const SectionTitle = styled.h2`

@@ -52,7 +52,7 @@ export default function NavBar() {
                 <AiFillLinkedin size="3rem"/>
             </SocialIcons>
             
-            <SocialIcons href="https://www.linkedin.com/in/zamircohen/" target="_blank">
+            <SocialIcons href="https://www.facebook.com/zamircohen/" target="_blank">
                 <AiFillFacebook size="3rem"/>
             </SocialIcons>
         </Div3>

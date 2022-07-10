@@ -7,6 +7,7 @@ import { SectionDivider } from '../components/Header/HeaderStyles'
 import { PageWrapper } from './PageWrapper'
 import Tech from '../components/Tech/Tech'
 import Contact from '../components/Contact/Contact'
+import Footer from '../components/Footer/Footer'
 // import { HashLink } from 'react-router-hash-link';
 
 export default function StartPage() {
@@ -20,6 +21,7 @@ export default function StartPage() {
         <Projects />
         <Tech />
         <Contact />
+        <Footer />
         {/* <HashLink smooth to="/#top">Link to Top of Page</HashLink> */}
         </PageWrapper>
     </div>
