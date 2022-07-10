@@ -16,13 +16,14 @@ import { Fade } from "react-awesome-reveal";
 const typeWriter = [
   "Full Stack Developer",
   "Traveller",
-  "Climbe",
+  "Climber",
   "Husband",
   "Junior Web Developer",
   "Friend",
   "Climber",
   "Runner",
-  "Programmer"
+  "Programmer",
+  "Photographer"
 ];
 
 export default function Header() {

@@ -31,15 +31,15 @@ export const Block = styled.div`
     width: 75%;
     position: relative;
     margin: 0 auto;
+    height: 100%;
 `;
 
 export const BlockTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '102px' : '48px'};
-  line-height: ${(props) => props.main ? '108px' : '60px'};
+  line-height: ${(props) => props.main ? '120px' : '60px'};
   width: max-content;
   margin: 0 auto;
-  padding: 10rem 0 2rem 0;
   background: ${(props) => props.color ? 'linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%)' : 'white'};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

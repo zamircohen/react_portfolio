@@ -1,6 +1,6 @@
 import React from 'react'
-import { SectionTitle, Section, SectionText, Wrapper} from '../About/AboutStyles';
-import { Block, BlockTitle, BlockText } from '../Header/HeaderStyles';
+// import { SectionTitle, Section, SectionText, Wrapper} from '../About/AboutStyles';
+import { Block, BlockTitle, BlockText, Wrapper } from '../Header/HeaderStyles';
 import { Fade } from "react-awesome-reveal";
 import { Chrono } from 'react-chrono';
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
