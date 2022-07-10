@@ -6,7 +6,7 @@ export default function Tech() {
   return (
     <Wrapper id="tech">
         <Section>    
-            <SectionTitle>Tech</SectionTitle>     
+            <SectionTitle main>Tech</SectionTitle>     
         </Section>
     </Wrapper>
   )

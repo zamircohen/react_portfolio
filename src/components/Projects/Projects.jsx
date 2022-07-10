@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <Wrapper id="projects">
         <Section>    
-            <SectionTitle>Projects</SectionTitle>     
+            <SectionTitle main>Projects</SectionTitle>     
         </Section>
     </Wrapper>
   )
