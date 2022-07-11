@@ -2,7 +2,7 @@ import React from 'react'
 import { Block, BlockTitle, Wrapper} from '../Header/HeaderStyles';
 import { ProjectBox } from './ProjectsStyles';
 import Card from '../../styles/GlobalComponents/Card';
-
+import { Fade } from "react-awesome-reveal";
 
 const projects = [
   {
@@ -34,6 +34,7 @@ const projects = [
 export default function Projects() {
   return (
     <Wrapper id="projects">
+      <Fade delay={200}>
         <Block>    
             <BlockTitle main>Projects</BlockTitle>  
 
@@ -87,6 +88,7 @@ export default function Projects() {
             </ProjectBox>
 
         </Block>
+        </Fade>
     </Wrapper>
   )
 }

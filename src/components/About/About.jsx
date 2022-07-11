@@ -6,7 +6,6 @@ import { Fade } from "react-awesome-reveal";
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { Chrono } from "react-chrono";
 
-
 const items = [
   {
     title: "2022",
@@ -38,7 +37,6 @@ export default function About() {
              I am looking forward to a career in web development. Please contact me <HashLink smooth to="/#contact" style={{ color: 'white' }} activeStyle={{ color: 'blue' }}>here</HashLink> for further inquieries.
             </BlockText>
         </Block>
-
         <Block>
             <BlockTitle main>My CV</BlockTitle>
             <BlockText>
@@ -67,7 +65,6 @@ export default function About() {
             </div>
             </BlockText>
         </Block>
-
 
     </Wrapper>
   )
