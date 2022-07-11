@@ -4,7 +4,7 @@ import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import Card from '../../styles/GlobalComponents/Card';
 import Marquee from "react-fast-marquee"
 import { MarqueeBlock } from './TechStyles';
-import { DiJavascript, DiSass, DiReact, DiMongodb, DiGithubBadge, DiNodejsSmall, DiCss3, DiHtml5, DiJqueryLogo, DiMysql, DiDatabase, DiGitBranch, DiTrello} from 'react-icons/di';
+import { DiJavascript, DiSass, DiReact, DiMongodb, DiGithubBadge, DiNodejsSmall, DiCss3, DiHtml5, DiJqueryLogo, DiMysql, DiDatabase, DiGitBranch, DiTrello, DiDocker} from 'react-icons/di';
 
 
 export default function Tech() {
@@ -22,8 +22,9 @@ export default function Tech() {
                <DiHtml5 size="15rem" style={{fill:"orange"}}/>
                <DiSass size="15rem" style={{fill:"pink"}}/>
                <DiNodejsSmall size="15rem" style={{fill:"green"}}/>
-               <DiDatabase size="15rem" style={{fill:"grey"}}/>
                <DiCss3 size="15rem" style={{fill:"blue"}}/>
+               <DiDatabase size="15rem" style={{fill:"grey"}}/>
+               <DiDocker size="15rem" style={{fill:"blue"}}/>
                <DiTrello size="15rem" style={{fill:"lightblue"}}/>
                <DiMysql size="15rem" style={{fill:"orange"}}/>
             </Marquee>
