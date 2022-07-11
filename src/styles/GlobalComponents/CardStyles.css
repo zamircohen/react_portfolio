@@ -1,27 +1,65 @@
 .card {
-    box-shadow: 0 4px 8px 0 white;
+    /* box-shadow: 0 4px 8px 0 white; */
     transition: 0.3s;
     width: 100%;
-    margin: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
+    opacity: 0.8;
+    /* background: rgb(31, 32, 32); */
+    background: linear-gradient(90deg, #91d7fc 18.77%, hsl(212, 47%, 49%) 60.15%);
 }
   
   /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 white;
-    scale: 1.1;
-    opacity: 0.5;
+    /* box-shadow: 0 8px 16px 0 white; */
+    scale: 1.05;
+    opacity: 1;
 }
   
   /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
-    background-color: white;
-    border: 10px solid green;
+    border: 10px;
     border-radius: 5px;
 }
 
-.card-body {
+
+.card-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.75);; 
+}
+
+.card-button {
+    background-color: #61B9E9;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-style: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.card-image {
+    width: 100%;
+    height: auto; 
+    border-radius: 25px;
+    padding: 10px 0px 10px 0px;
+}
+
+/* .card-body {
     padding: 0;
-    background-color: pink;
-} 
+    background-color: white;
+}  */
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.75);
+    align-items: center;
+}
