@@ -16,7 +16,7 @@ export default function StartPage() {
     <div>
         <PageWrapper>
         <NavBar />
-        <SectionDivider />
+        {/* <SectionDivider /> */}
         <Header />
         <About />
         <Projects />

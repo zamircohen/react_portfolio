@@ -12,9 +12,9 @@ function App() {
 
       <Routes>
         {/* <Route exact path="/" element={<NavBar/>} /> */}
-        <Route path="/header" element={<Header/>} />
+        {/* <Route path="/header" element={<Header/>} /> */}
         <Route exact path="/" element={<StartPage/>} />
-        <Route path="/about" element={<About/>} />
+        {/* <Route path="/about" element={<About/>} /> */}
       </Routes>
 
       </BrowserRouter>  

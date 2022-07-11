@@ -7,7 +7,6 @@ export default function Card(props) {
             <p>{props.description}</p>   
             <img src={props.images["0"]["src"]["small"]} alt={props.imageAlt} width="250px" height="auto"/>        
             <p>Price: {props.price} SEK</p>
-            <hr />
         </div>
     )
 }

@@ -2,20 +2,8 @@ import React from 'react'
 // import { SectionTitle, Section, SectionText, Wrapper} from '../About/AboutStyles';
 import { Block, BlockTitle, BlockText, Wrapper } from '../Header/HeaderStyles';
 import { Fade } from "react-awesome-reveal";
-import { Chrono } from 'react-chrono';
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 
-const items = [{
-  title: "August 2021",
-  cardTitle: "Frontend 1 - JavaScript",
-}, {
-  title: "October 2021",
-  cardTitle: "Frontend 2 - JavaScript",
-}, {
-  title: "December 2021",
-  cardTitle: "Frontend 3 - React",
-}
-]
 
 
 export default function About() {
@@ -29,23 +17,7 @@ export default function About() {
         <Block>
             <BlockTitle main>Education</BlockTitle>
             <BlockText>
-                <Chrono
-                    mode="HORIZONTAL"
-                    items={items}
-                    
-                    slideShow={true}
-                    showLabels={true}
-                    hideControls={true}
-                    showProgress={true}
-                    theme={{
-                      primary: 'white',
-                      secondary: 'transparent',
-                      cardBgColor: 'white',
-                      cardForeColor: 'white',
-                      titleColor: 'black',
-                      titleColorActive: 'white',
-                    }}
-                />
+              
             </BlockText>
         </Block>
 
