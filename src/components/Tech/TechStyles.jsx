@@ -8,7 +8,7 @@ export const MarqueeBlock = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 100%;
-    height: 50%;
+    height: 40%;
     overflow: hidden;
     white-space: nowrap;
     text-align: center;

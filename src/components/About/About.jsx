@@ -4,6 +4,29 @@ import { Block, BlockTitle, BlockText, Wrapper } from '../Header/HeaderStyles';
 import { HashLink } from 'react-router-hash-link';
 import { Fade } from "react-awesome-reveal";
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { Chrono } from "react-chrono";
+
+
+const items = [
+  {
+  title: "May 1940",
+  cardTitle: "Dunkirk",
+  cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+  },
+  {
+    title: "June 1977",
+    cardTitle: "Birth of Zamir",
+    cardSubtitle:"I was born on April 22nd 1977",
+    cardDetailedText: "It was a long time ago, but I was born on April 22nd 1977.",
+  },
+  {
+    title: "May 1940",
+    cardTitle: "Summer of War",
+    cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    },
+];
+
 
 
 
@@ -21,7 +44,24 @@ export default function About() {
         <Block>
             <BlockTitle main>Education</BlockTitle>
             <BlockText>
-              
+            <div style={{ width: "100%", height: "600px", hideControls: "true", }}>
+              <Chrono 
+                items={items} 
+                hideControls={true} 
+                slideShow={false}
+                onRestartSlideshow={true}
+                slideShowRunning={true}
+                scrollable={{ scrollbar: true }}
+                theme={{
+                  primary: 'lightblue',
+                  secondary: 'transparent',
+                  secondaryText: 'white',
+                  cardBgColor: 'white',
+                  cardForeColor: 'black',
+                  titleColor: 'black',
+                }}
+              />
+            </div>
             </BlockText>
         </Block>
 

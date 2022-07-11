@@ -1,7 +1,7 @@
 import React from 'react'
 import { Block, BlockTitle, Wrapper} from '../Header/HeaderStyles';
 import { ProjectBox } from './ProjectsStyles';
-import './Card.css';
+import './ProjectCard.css';
 
 export default function Projects() {
   return (
@@ -30,6 +30,15 @@ export default function Projects() {
                 <p>Architect</p>
               </div>
             </div> 
+
+            <div class="card">
+              <div class="container">
+                <h4><b>John Doe</b></h4>
+                <p>Architect</p>
+              </div>
+            </div> 
+
+
             </ProjectBox>
 
         </Block>
