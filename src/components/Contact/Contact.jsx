@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Block, Wrapper, BlockTitle, BlockText} from '../Header/HeaderStyles';
+import { Block, Wrapper, BlockTitle} from '../Header/HeaderStyles';
 // import { Form } from './ContactStyles';
 // import { useState } from 'react';
 // import { send } from 'emailjs'
@@ -25,16 +25,12 @@ export default function Contact() {
     };
 
 
-    function sayThanks() {
-      document.getElementById("thankYouMessageDiv").innerHTML = "Your message";
-    }
-
   return (
     <Wrapper id="contact">
         <Block>    
             <BlockTitle main>Contact me.</BlockTitle>     
 
-            <form className="form" ref={form} onSubmit={() => { {sendEmail}; sayThanks() }} >
+            <form className="form" ref={form} onSubmit={sendEmail}>
                 <input className="input" type="text" placeholder='Your name*' name="name" required="true"/>
                 <input className="input" type="text" placeholder='Your comnpany' name="company" />
                 <input className="input" type="text" placeholder='Your email*' name="email" />
@@ -43,8 +39,6 @@ export default function Contact() {
                 <br />
                 <button className="button" type="submit"> SUBMIT </button>
               </form>
-              <br />
-              <BlockText> Thank you for your message! </BlockText>
         </Block>
     </Wrapper>
   )
