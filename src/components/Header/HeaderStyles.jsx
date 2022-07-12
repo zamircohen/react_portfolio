@@ -37,7 +37,7 @@ export const Block = styled.div`
 export const BlockTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '102px' : '48px'};
-  line-height: ${(props) => props.main ? '120px' : '60px'};
+  line-height: ${(props) => props.main ? '140px' : '60px'};
   width: max-content;
   margin: 0 auto;
   background: ${(props) => props.color ? 'linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%)' : 'white'};
