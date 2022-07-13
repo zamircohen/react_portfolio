@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Block, Wrapper, BlockTitle} from '../Header/HeaderStyles';
+import { Block, Wrapper, BlockTitle } from '../Header/HeaderStyles';
 // import { Form } from './ContactStyles';
 // import { useState } from 'react';
 // import { send } from 'emailjs'
