@@ -9,11 +9,13 @@ import Tech from '../components/Tech/Tech'
 import Contact from '../components/Contact/Contact'
 import Footer from '../components/Footer/Footer'
 import ScrollButton from '../styles/GlobalComponents/ScrollButton'
+import Theme from '../styles/theme'
 // import { HashLink } from 'react-router-hash-link';
 
 export default function StartPage() {
   return (
     <div>
+        <Theme>
         <PageWrapper>
         <NavBar />
         {/* <SectionDivider /> */}
@@ -26,6 +28,7 @@ export default function StartPage() {
         {/* <HashLink smooth to="/#top">Link to Top of Page</HashLink> */}
         <ScrollButton />
         </PageWrapper>
+        </Theme>
     </div>
 
   )
