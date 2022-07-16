@@ -29,7 +29,7 @@ export default function Tech() {
                <DiMysql size="10rem" style={{fill:"orange"}}/>
             </Marquee>
             </MarqueeBlock>
-        <BlockText>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus saepe inventore delectus neque corporis officia nostrum quae voluptates est, ipsa iure dolorum odit nam praesentium, ratione aliquid alias vero.</BlockText>
+        <BlockText>These are the technologies I´ve been working with the latest year. It´s a mix of both Front- & Backend programming.</BlockText>
           
         </Block>
     </Wrapper>

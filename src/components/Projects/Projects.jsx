@@ -12,6 +12,7 @@ const projects = [
      "alt": "A photo of something",
      "description":"A to do list application that allows you to add, delete, and edit tasks. It also allows you to mark tasks as complete or incomplete. It also allows you to sort tasks by date or by priority.",
      "tools": "NodeJS, Express, React, Redux, CSS, HTML, MongoDB, Mongoose, MongoDB Atlas, Heroku",
+     "link": "https://todolist-react-redux.herokuapp.com/"
   },
 
   {
@@ -20,6 +21,7 @@ const projects = [
     "alt": "Mysterious Orange",
     "description":"A to do list application that allows you to add, delete, and edit tasks. It also allows you to mark tasks as complete or incomplete. It also allows you to sort tasks by date or by priority.",
     "tools": "NodeJS, Express, React, Redux, CSS, HTML, MongoDB, Mongoose, MongoDB Atlas, Heroku",
+    "link": "https://todolist-react-redux.herokuapp.com/"
  },
 
  {
@@ -28,6 +30,7 @@ const projects = [
   "alt": "Mysterious Orange",
   "description":"A to do list application that allows you to add, delete, and edit tasks. It also allows you to mark tasks as complete or incomplete. It also allows you to sort tasks by date or by priority.",
   "tools": "NodeJS, Express, React, Redux, CSS, HTML, MongoDB, Mongoose, MongoDB Atlas, Heroku",
+  "link": "https://todolist-react-redux.herokuapp.com/",
 },
 ]
 
