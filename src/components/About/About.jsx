@@ -6,25 +6,25 @@ import { Fade } from "react-awesome-reveal";
 import { AiFillFacebook, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { Chrono } from "react-chrono";
 
+
 const items = [
   {
-    title: "2022",
+    title: "2022 Q1-2",
     cardTitle: "Backend Development",
-    cardDetailedText: "It was a long time ago, but I was born on April 22nd 1977.",
+    cardSubtitle:"Node.js, MongoDB, Docker, Databases and more",
+    cardDetailedText: ["Studied the basics of backend development and learned how to use the Node.js framework to create a server. I´ve also been working with the Express framework and the MongoDB database."]
   },
   {
-    title: "May 1940",
-    cardTitle: "Summer of War",
-    cardDetailedText: "Lorem Men of the British Expeditionary Force (BEF) wade out to. Lorem Men of the British Expeditionary Force (BEF) wade out to. Lorem Men of the British Expeditionary Force (BEF) wade out to.Lorem Men of the British Expeditionary Force (BEF) wade out to.",
+    title: "2021 Q3-4",
+    cardTitle: "Frontend Development",
+    cardDetailedText: "Studied the basich of frontend development and learned how to use the React framework to create a website. I´ve also been working with the Bootstrap framework and learning HTML and CSS.",
     },
   {
     title: "June 1977",
     cardTitle: "Birth of Zamir",
-    cardDetailedText: "It was a long time ago, but I was born on April 22nd 1977.",
+    cardDetailedText: ["paragraph1", "paragraph2"]
   },
 ];
-
-
 
 
 export default function About() {
@@ -39,8 +39,9 @@ export default function About() {
         </Block>
         <Block>
             <BlockTitle main>My CV</BlockTitle>
-            <BlockText>
+            {/* <BlockText> */}
             <div style={{ width: "100%", height: "600px", hideControls: "true", }}>
+          
               <Chrono 
                 items={items} 
                 mode="VERTICAL"
@@ -52,18 +53,21 @@ export default function About() {
                   cardBgColor: 'white',
                   cardForeColor: 'black',
                   cardTitleColor: 'black',
+                  cardSubtitleColor: 'black',
                   titleColor: 'black',
-                  titleColorActive: 'white',
+                  titleColorActive: 'white'
                 }}
                 fontSizes={{
+                  cardSubtitle: '2rem',
                   cardText: '2rem',
                   cardTitle: '3rem',
-                  cardDetailedText: '1.5rem',
+                  // title: '2rem',
                 }}
               >
               </Chrono>
+
             </div>
-            </BlockText>
+            {/* </BlockText> */}
         </Block>
 
     </Wrapper>
