@@ -36,6 +36,8 @@
     border-radius: 5px;
     padding: .5rem;
     font-size: 2rem;
+    width: 10%;
+    margin: 0 auto;
     color: white;
     font-weight: bold;
     background: linear-gradient(121.57deg, #61B9E9 18.77%, #CD7DFF 60.15%);

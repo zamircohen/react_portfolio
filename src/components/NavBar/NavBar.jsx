@@ -11,9 +11,9 @@ import {SectionDivider} from '../Header/HeaderStyles';
 export default function NavBar() {
     return (
     <Wrapper>
-        <Div1>
+        {/* <Div1>
         <span> <BsMoonFill color="white" size="1.5rem"/> <ToggleSwitch /> <BsSunFill color="white" size="1.5rem"/> </span>
-        </Div1>
+        </Div1> */}
 
         <Div2>
             <li>
