@@ -31,11 +31,11 @@ export default function Contact() {
             <BlockTitle main>Contact me.</BlockTitle>     
 
             <form className="form" ref={form} onSubmit={sendEmail}>
-                <input className="input" type="text" placeholder='Your name*' name="name" required="true"/>
-                <input className="input" type="text" placeholder='Your comnpany' name="company" />
-                <input className="input" type="text" placeholder='Your email*' name="email" />
-                <input className="input" type="tel" placeholder='Phonenumber' name="phone" />
-                <textarea className="textarea" placeholder='Your message' name="message" ></textarea>
+                <input className="input" type="text" placeholder=' Your name*' name="name" required="true"/>
+                <input className="input" type="text" placeholder=' Your comnpany' name="company" />
+                <input className="input" type="text" placeholder=' Your email*' name="email" />
+                <input className="input" type="tel" placeholder=' Phonenumber' name="phone" />
+                <textarea className="textarea" placeholder='Your message...' name="message" ></textarea>
                 <br />
                 <button className="button" type="submit"> SUBMIT </button>
               </form>
