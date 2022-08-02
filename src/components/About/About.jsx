@@ -34,7 +34,7 @@ export default function About() {
         <Block>    
         <Fade delay={300}>
             <BlockTitle main>About me</BlockTitle>     
-            <BlockText>I am a Social and curious team player with a huge interest in new experiences and personal development. I have a versatile background with experience in areas such as the technology, service- and travel industry. <br /><br />
+            <BlockText>I am a social and curious team player with a huge interest in new experiences and personal development. I have a versatile background with experience in areas such as technology-, service- and travel industry. <br /><br />
              I am in the process of expanding my skills and currently studying Full Stack Web Development at Nackademin, Stockholm, which is a 2-year higher vocational education.<br /><br />
              I am looking forward to a career in web development. Please contact me <HashLink smooth to="/#contact" style={{ color: 'white' }} activeStyle={{ color: 'blue' }}>here</HashLink> for further inquieries.
             </BlockText>
