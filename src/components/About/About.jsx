@@ -1,5 +1,5 @@
 import React from 'react'
-// import { SectionTitle, Section, SectionText, Wrapper} from '../About/AboutStyles';
+import { SectionDivider } from '../About/AboutStyles';
 import { Block, BlockTitle, BlockText, Wrapper } from '../Header/HeaderStyles';
 import { HashLink } from 'react-router-hash-link';
 import { Fade } from "react-awesome-reveal";
@@ -46,7 +46,7 @@ export default function About() {
         <Block>
         <Fade delay={300}>
             <BlockTitle main>My CV</BlockTitle>
-            {/* <BlockText> */}
+            {/* <BlockText>
             <div style={{ width: "100%", height: "600px", hideControls: "true", }}>
           
               <Chrono 
@@ -71,9 +71,27 @@ export default function About() {
                   // title: '2rem',
                 }}
               >
-              </Chrono>
+              </Chrono> */}
+            <BlockText>
+            <u>Web development</u> <br /><br />
+             
+            Spring 2022 - Backend (Node.js, MySQL, MongoDB) <br /><br />
+            Fall 2021 - Frontend (JavaScript, HTML, CSS, React) <br /><br />
+            Winter 2020/2021 - Web development (HTML, CSS) <br /><br />    
 
-            </div>
+            < SectionDivider></SectionDivider>
+            <br />
+            <u>Other</u> <br /><br />
+            2015 - 2018 / Travel Agent @ Kilroy Sweden AB<br /><br />
+            2007 - 2013 / Process operator @ Ericsson AB <br /><br />
+            2003 - 2019 / Bartender @ Lady Patricia AB
+            
+
+            </BlockText>
+
+
+
+            {/* </div> */}
             {/* </BlockText> */}
             </Fade>
         </Block>
