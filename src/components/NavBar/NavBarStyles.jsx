@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
     gap: 2rem;
     padding: 1rem 0rem 1rem 0rem;
     width: 100%;
+    margin: 0;
 `;
 
 export const Span = styled.span`
@@ -27,20 +28,20 @@ export const Div1 = styled.div`
 `;
 
 export const Div2 = styled.div`
-    grid-area: 1 / 2 / 1 / 4;
-    display: flex;
-    align-content: space-around;
-    justify-content: center;
-    list-style: none;
+        align-content: space-around;
+        grid-area: 1 / 2 / 1 / 4;
+        display: flex;
+        justify-content: center;
+        list-style: none;
 `;
 
 export const Div3 = styled.div`
-    grid-area: 1 / 5 / 1 / 6;
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: center;
-    list-style: none;
+        grid-area: 1 / 5 / 1 / 6;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: center;
+        list-style: none;
 `;
 
 export const NavLink = styled.a`

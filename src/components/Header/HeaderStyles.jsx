@@ -13,11 +13,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Section = styled.div`
-    
     max-width: 1040px;
     width: 100%;
     color: white;
-    margin: ${(props) => props.right ? "0 20rem 0 10rem" : "0 10rem 0 20rem" };
+    margin: ${(props) => props.right ? "0 10rem 0 10rem" : "0 10rem 0 10rem" };
     text-align: ${(props) => props.left ? "left" : "right" };
     vertical-align: middle;
     padding-${(props) => props.right ? "right" : "left" }: 7rem;
